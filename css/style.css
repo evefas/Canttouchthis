@@ -1,0 +1,114 @@
+.logo {display:inline-block; 
+vertical-align: top;
+    width: 100px;
+    height: 100px;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+nav ul {margin: 0px;
+padding: 0px;
+list-style: none;}
+
+ nav {position: fixed;
+    top: 2px;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    padding: 5px 50px;
+    box-sizing: border-box;
+    transition: .3s;
+    font-size: 12px;
+    font-family: 'Gudea', sans-serif;
+    background-color:none;
+   }
+
+nav ul li {float: right;
+width: 120px;
+height: 40px;
+opacity: .8;
+line-height: 40px;
+text-align: center;
+font-size: 13px}
+
+nav ul li a {text-decoration: none;
+color: #000000;
+display: block;
+}
+
+
+nav.black {
+    background: rgba(0,0,0,0.8);
+    height: 100px;
+    padding: 10px 100px;
+}
+
+.active {color: #fff;
+background: #FF89B9;
+border-radius: 4px;
+opacity: 100;}
+
+
+nav ul li a:hover {background-color: #FCCED7;}
+
+
+
+nav ul li:hover ul li {display: block;}
+
+
+body {
+background: url(bannerprototype.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: 50% 35%;
+
+}
+
+h1 {position: absolute;
+text-align: center;
+top: 24%;
+left: 50%;
+transform: translate(-50%, -50%);
+font-family: 'IBM Plex Sans', sans-serif;
+font-weight: 300;
+color: #fff; 
+
+font-size: 130px}
+
+span {color: #FF89B9 }
+
+/*.tagline {position: absolute;
+text-align: center;
+top: 47%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+.tagline p {
+    color: white;
+   font-family: 'Dancing Script', cursive;
+    font-size: 20px;} BAA8BA
+
+  /*--------footer---------------------------*/
+
+.footer {width:120%;
+background-color: #000000;
+padding: 9px 120px;
+margin-right: 0;
+float: left;
+    left:-20px;
+    
+position:fixed;
+bottom: 0;
+font-family: sans-serif;
+color: white;
+font-size: 12px;
+}
+
+.footer p {float:left;
+margin: auto;
+padding-right: 55px;}
+
+.footer p1 {
+margin: auto;
+padding-left:55px;  }
